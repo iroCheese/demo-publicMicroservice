@@ -112,8 +112,8 @@ jhipster:
     client-authorization:
       access-token-uri: http://uaa/oauth/token
       token-service-id: uaa
-      client-id: internal
-      client-secret: internal
+      client-id: mymicroservice
+      client-secret: admin
   mail: # specific JHipster mail property, for standard properties see MailProperties
     from: publicMicroservice@localhost
     base-url: http://127.0.0.1:8081
